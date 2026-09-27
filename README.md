@@ -18,4 +18,7 @@ Original low-cost sim-racing handbrake development project using a dual-608/M8 p
 
 P1.0 and P1-C are engineering prototypes. CAD checks do not establish production strength, fatigue life, electrical compliance, or commercial safety. Follow the included test plans and perform progressive physical validation.
 
-The current Tunisia purchasing and calibration guide is available at `output/pdf/P1_TUNISIA_PURCHASE_GUIDE.pdf`.
+Purchasing documents:
+
+- Short shop-ready list with totals and coupon folder: `output/pdf/P1_BUY_LIST_SUMMARY_TUNISIA.pdf`
+- Detailed Tunisia purchasing/calibration guide: `output/pdf/P1_TUNISIA_PURCHASE_GUIDE.pdf`
