@@ -1,0 +1,3 @@
+material,net_area_mm2_per_unit,net_area_m2_per_unit,assumed_sheet_mm,planning_utilization,approx_units_per_sheet,classification
+steel,62844.7,0.06284,1000 x 2000,0.75,23,DERIVED PLANNING ESTIMATE
+aluminium,5043.3,0.00504,1000 x 2000,0.75,297,DERIVED PLANNING ESTIMATE

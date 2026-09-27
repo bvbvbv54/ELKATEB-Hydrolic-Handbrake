@@ -1,0 +1,19 @@
+part_id,material,volume_cm3,density_g_cm3,solid_mass_g,note
+P1C-S001_BASE_TRAY,steel,68.002,7.85,533.82,CAD solid mass
+P1C-S002_LEFT_SIDE_FRAME,steel,18.487,7.85,145.12,CAD solid mass
+P1C-S003_RIGHT_SIDE_FRAME,steel,18.541,7.85,145.55,CAD solid mass
+P1C-S004_STEEL_LEVER,steel,34.674,7.85,272.19,CAD solid mass
+P1C-S005_SPRING_BRACKET,steel,3.218,7.85,25.26,CAD solid mass
+P1C-S006_CLAMP_BRACKET,steel,45.612,7.85,358.06,CAD solid mass
+P1C-A001_LEFT_ACCENT,aluminium,5.043,2.7,13.62,CAD solid mass
+P1C-A002_RIGHT_ACCENT,aluminium,5.043,2.7,13.62,CAD solid mass
+P1C-P001_BEARING_HUB,printed,118.952,1.27,151.07,Printed solid mass is not sliced mass
+P1C-P002_MAGNET_CARRIER,printed,3.308,1.27,4.2,Printed solid mass is not sliced mass
+P1C-P003_HALL_WINDOW,printed,1.778,1.27,2.26,Printed solid mass is not sliced mass
+P1C-P004_HALL_SLED,printed,3.119,1.27,3.96,Printed solid mass is not sliced mass
+P1C-P005_ELECTRONICS_POD,printed,30.993,1.27,39.36,Printed solid mass is not sliced mass
+P1C-P006_ELECTRONICS_LID,printed,8.731,1.27,11.09,Printed solid mass is not sliced mass
+P1C-P007_CABLE_GUIDE,printed,1.643,1.27,2.09,Printed solid mass is not sliced mass
+P1C-P008_CLAMP_KNOB,printed,27.19,1.27,34.53,Printed solid mass is not sliced mass
+P1C-P009_SWIVEL_PAD,printed,12.562,1.27,15.95,Printed solid mass is not sliced mass
+P1C-P010_SPRING_COLLAR,printed,0.906,1.27,1.15,Printed solid mass is not sliced mass

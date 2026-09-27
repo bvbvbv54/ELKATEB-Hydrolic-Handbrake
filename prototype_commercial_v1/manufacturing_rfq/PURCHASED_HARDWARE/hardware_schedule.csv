@@ -1,0 +1,19 @@
+item,qty_per_unit,specification
+608 bearing,2,8x22x7 mm
+M8 partial-thread pivot,1,80 mm candidate; smooth shank through races
+M8 nyloc + washers/spacers,1,stack to measured frame gap
+M6 lever clamp bolt + nyloc,2,through hub and 5 mm lever
+M6 frame/base bolt + nyloc,4,black visible head
+M6 spring eye/pin,2,steel
+M6 adjustable stop,2,steel plus rubber tip
+M4 accent button-head,6,"black, consistent style"
+M4 electronics pod mount,4,black
+M3 Hall/lid fastener,6,black
+M10 clamp screw,1,120 mm candidate
+M10 coupling nut,1,"30 mm candidate, retained/welded in steel bracket"
+Swivel clamp foot,1,40-50 mm rubber-faced
+Extension spring,1,"OD <=18, hook length 60-100 trial set"
+Magnet,1,10x5x3 mm candidate
+49E Hall board,1,measure actual
+Pro Micro,1,temporary alpha
+Grip,1,Ø34 x 112 target

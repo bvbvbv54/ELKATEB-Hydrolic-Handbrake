@@ -1,0 +1,669 @@
+{
+  "version": "P1.0",
+  "part_records": [
+    {
+      "name": "P1-001_BASE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 114027.852,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 180.0,
+        "xlen": 180.0,
+        "ymin": -0.0,
+        "ymax": 84.0,
+        "ylen": 84.0,
+        "zmin": -0.003,
+        "zmax": 10.003,
+        "zlen": 10.006
+      }
+    },
+    {
+      "name": "P1-030_LEFT_BACKING_STRIP",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 13089.457,
+      "bbox_mm": {
+        "xmin": 0.0,
+        "xmax": 180.0,
+        "xlen": 180.0,
+        "ymin": 5.5,
+        "ymax": 30.5,
+        "ylen": 25.0,
+        "zmin": 0.0,
+        "zmax": 3.0,
+        "zlen": 3.0
+      }
+    },
+    {
+      "name": "P1-031_RIGHT_BACKING_STRIP",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 13089.457,
+      "bbox_mm": {
+        "xmin": 0.0,
+        "xmax": 180.0,
+        "xlen": 180.0,
+        "ymin": 53.5,
+        "ymax": 78.5,
+        "ylen": 25.0,
+        "zmin": 0.0,
+        "zmax": 3.0,
+        "zlen": 3.0
+      }
+    },
+    {
+      "name": "P1-002_LEFT_PIVOT_SUPPORT",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 65580.433,
+      "bbox_mm": {
+        "xmin": 22.0,
+        "xmax": 78.0,
+        "xlen": 56.0,
+        "ymin": 7.981,
+        "ymax": 26.019,
+        "ylen": 18.037,
+        "zmin": 9.998,
+        "zmax": 103.017,
+        "zlen": 93.019
+      }
+    },
+    {
+      "name": "P1-003_RIGHT_PIVOT_SUPPORT",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 68877.154,
+      "bbox_mm": {
+        "xmin": 22.0,
+        "xmax": 78.0,
+        "xlen": 56.0,
+        "ymin": 57.981,
+        "ymax": 76.019,
+        "ylen": 18.038,
+        "zmin": 9.998,
+        "zmax": 103.0,
+        "zlen": 93.002
+      }
+    },
+    {
+      "name": "P1-004_LEVER_ROOT_BEARING_HUB",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 103164.143,
+      "bbox_mm": {
+        "xmin": -48.0,
+        "xmax": 76.0,
+        "xlen": 124.0,
+        "ymin": -14.023,
+        "ymax": 14.023,
+        "ylen": 28.047,
+        "zmin": -40.0,
+        "zmax": 24.02,
+        "zlen": 64.02
+      }
+    },
+    {
+      "name": "P1-005_STEEL_LEVER_TEMPLATE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 34578.359,
+      "bbox_mm": {
+        "xmin": 20.0,
+        "xmax": 300.0,
+        "xlen": 280.0,
+        "ymin": -2.5,
+        "ymax": 2.5,
+        "ylen": 5.0,
+        "zmin": -12.5,
+        "zmax": 12.5,
+        "zlen": 25.0
+      }
+    },
+    {
+      "name": "P1-006_GRIP",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 83651.351,
+      "bbox_mm": {
+        "xmin": 189.982,
+        "xmax": 300.018,
+        "xlen": 110.036,
+        "ymin": -17.018,
+        "ymax": 17.018,
+        "ylen": 34.036,
+        "zmin": -17.018,
+        "zmax": 17.018,
+        "zlen": 34.036
+      }
+    },
+    {
+      "name": "P1-007_SPRING_ANCHOR_MODULE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10481.152,
+      "bbox_mm": {
+        "xmin": 88.0,
+        "xmax": 128.0,
+        "xlen": 40.0,
+        "ymin": 30.0,
+        "ymax": 54.0,
+        "ylen": 24.0,
+        "zmin": 9.998,
+        "zmax": 32.0,
+        "zlen": 22.002
+      }
+    },
+    {
+      "name": "P1-008_RELEASE_STOP",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1498.18,
+      "bbox_mm": {
+        "xmin": 63.075,
+        "xmax": 81.774,
+        "xlen": 18.699,
+        "ymin": -0.001,
+        "ymax": 8.001,
+        "ylen": 8.003,
+        "zmin": 70.944,
+        "zmax": 93.886,
+        "zlen": 22.942
+      }
+    },
+    {
+      "name": "P1-009_FULL_PULL_STOP",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1498.18,
+      "bbox_mm": {
+        "xmin": 45.817,
+        "xmax": 69.398,
+        "xlen": 23.58,
+        "ymin": -0.001,
+        "ymax": 8.001,
+        "ylen": 8.003,
+        "zmin": 41.792,
+        "zmax": 66.112,
+        "zlen": 24.32
+      }
+    },
+    {
+      "name": "P1-010_MAGNET_HOLDER",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2876.588,
+      "bbox_mm": {
+        "xmin": -22.236,
+        "xmax": 0.171,
+        "xlen": 22.407,
+        "ymin": 9.999,
+        "ymax": 22.001,
+        "ylen": 12.002,
+        "zmin": -59.126,
+        "zmax": -16.093,
+        "zlen": 43.033
+      }
+    },
+    {
+      "name": "P1-011A_HALL_FIXED_BRACKET",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3535.611,
+      "bbox_mm": {
+        "xmin": 58.0,
+        "xmax": 89.0,
+        "xlen": 31.0,
+        "ymin": 64.999,
+        "ymax": 80.002,
+        "ylen": 15.003,
+        "zmin": 10.0,
+        "zmax": 45.001,
+        "zlen": 35.001
+      }
+    },
+    {
+      "name": "P1-011B_HALL_SENSOR_SLED",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1181.548,
+      "bbox_mm": {
+        "xmin": 75.0,
+        "xmax": 89.0,
+        "xlen": 14.0,
+        "ymin": 64.999,
+        "ymax": 73.601,
+        "ylen": 8.602,
+        "zmin": 19.999,
+        "zmax": 42.0,
+        "zlen": 22.001
+      }
+    },
+    {
+      "name": "P1-012_ELECTRONICS_ENCLOSURE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 14210.403,
+      "bbox_mm": {
+        "xmin": 127.998,
+        "xmax": 178.0,
+        "xlen": 50.002,
+        "ymin": 45.0,
+        "ymax": 83.0,
+        "ylen": 38.0,
+        "zmin": 9.998,
+        "zmax": 38.001,
+        "zlen": 28.003
+      }
+    },
+    {
+      "name": "P1-013_ELECTRONICS_COVER",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8359.736,
+      "bbox_mm": {
+        "xmin": 128.0,
+        "xmax": 178.0,
+        "xlen": 50.0,
+        "ymin": 45.0,
+        "ymax": 83.0,
+        "ylen": 38.0,
+        "zmin": 35.999,
+        "zmax": 41.001,
+        "zlen": 5.003
+      }
+    },
+    {
+      "name": "P1-020_CLAMP_BASE_INTERFACE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 35223.35,
+      "bbox_mm": {
+        "xmin": 108.0,
+        "xmax": 172.006,
+        "xlen": 64.006,
+        "ymin": 6.0,
+        "ymax": 78.0,
+        "ylen": 72.0,
+        "zmin": -8.006,
+        "zmax": 0.006,
+        "zlen": 8.012
+      }
+    },
+    {
+      "name": "P1-021_CLAMP_VERTICAL_BRACKET",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 78803.761,
+      "bbox_mm": {
+        "xmin": 148.0,
+        "xmax": 182.002,
+        "xlen": 34.002,
+        "ymin": 10.0,
+        "ymax": 74.0,
+        "ylen": 64.0,
+        "zmin": -122.0,
+        "zmax": -8.0,
+        "zlen": 114.0
+      }
+    },
+    {
+      "name": "P1-022_CLAMP_SCREW_GUIDE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 44697.413,
+      "bbox_mm": {
+        "xmin": 95.989,
+        "xmax": 172.002,
+        "xlen": 76.013,
+        "ymin": 25.989,
+        "ymax": 58.011,
+        "ylen": 32.022,
+        "zmin": -122.004,
+        "zmax": -83.989,
+        "zlen": 38.015
+      }
+    },
+    {
+      "name": "P1-023_CLAMP_KNOB",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 27189.871,
+      "bbox_mm": {
+        "xmin": -26.005,
+        "xmax": 26.005,
+        "xlen": 52.011,
+        "ymin": -23.594,
+        "ymax": 23.594,
+        "ylen": 47.188,
+        "zmin": -0.005,
+        "zmax": 18.005,
+        "zlen": 18.011
+      }
+    },
+    {
+      "name": "P1-024_SWIVEL_PAD_HOLDER",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 11602.75,
+      "bbox_mm": {
+        "xmin": -23.016,
+        "xmax": 23.016,
+        "xlen": 46.032,
+        "ymin": -23.016,
+        "ymax": 23.016,
+        "ylen": 46.032,
+        "zmin": -0.016,
+        "zmax": 8.016,
+        "zlen": 8.032
+      }
+    },
+    {
+      "name": "P1-025_UPPER_RUBBER_PAD_HOLDER",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 16504.381,
+      "bbox_mm": {
+        "xmin": 82.0,
+        "xmax": 172.0,
+        "xlen": 90.0,
+        "ymin": 11.0,
+        "ymax": 73.0,
+        "ylen": 62.0,
+        "zmin": -11.002,
+        "zmax": -8.0,
+        "zlen": 3.002
+      }
+    },
+    {
+      "name": "COUPON_608_POCKETS_DEPTH_7",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 39939.035,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 150.0,
+        "xlen": 150.0,
+        "ymin": -0.0,
+        "ymax": 34.0,
+        "ylen": 34.0,
+        "zmin": -0.0,
+        "zmax": 11.008,
+        "zlen": 11.008
+      },
+      "output_directory": "coupons"
+    },
+    {
+      "name": "COUPON_608_POCKETS_DEPTH_14",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59478.07,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 150.0,
+        "xlen": 150.0,
+        "ymin": -0.0,
+        "ymax": 34.0,
+        "ylen": 34.0,
+        "zmin": -0.0,
+        "zmax": 18.008,
+        "zlen": 18.008
+      },
+      "output_directory": "coupons"
+    },
+    {
+      "name": "COUPON_M8_CLEARANCE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 12091.349,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 72.0,
+        "xlen": 72.0,
+        "ymin": -0.0,
+        "ymax": 24.0,
+        "ylen": 24.0,
+        "zmin": -0.003,
+        "zmax": 8.003,
+        "zlen": 8.006
+      },
+      "output_directory": "coupons"
+    },
+    {
+      "name": "COUPON_M6_CLEARANCE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 12825.225,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 72.0,
+        "xlen": 72.0,
+        "ymin": -0.0,
+        "ymax": 24.0,
+        "ylen": 24.0,
+        "zmin": -0.002,
+        "zmax": 8.002,
+        "zlen": 8.005
+      },
+      "output_directory": "coupons"
+    },
+    {
+      "name": "COUPON_M6_NUT_TRAPS",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 14801.601,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 80.0,
+        "xlen": 80.0,
+        "ymin": -0.0,
+        "ymax": 26.0,
+        "ylen": 26.0,
+        "zmin": -0.0,
+        "zmax": 8.0,
+        "zlen": 8.0
+      },
+      "output_directory": "coupons"
+    },
+    {
+      "name": "COUPON_MAGNET_POCKETS",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10152.58,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 70.0,
+        "xlen": 70.0,
+        "ymin": -0.0,
+        "ymax": 22.0,
+        "ylen": 22.0,
+        "zmin": -0.0,
+        "zmax": 7.0,
+        "zlen": 7.0
+      },
+      "output_directory": "coupons"
+    },
+    {
+      "name": "COUPON_HALL_GAP_JIG",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 19400.0,
+      "bbox_mm": {
+        "xmin": -0.0,
+        "xmax": 104.0,
+        "xlen": 104.0,
+        "ymin": -0.0,
+        "ymax": 35.0,
+        "ylen": 35.0,
+        "zmin": -0.0,
+        "zmax": 18.0,
+        "zlen": 18.0
+      },
+      "output_directory": "coupons"
+    },
+    {
+      "name": "COUPON_LOADED_BEARING_WALL",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 42074.028,
+      "bbox_mm": {
+        "xmin": 1.0,
+        "xmax": 80.0,
+        "xlen": 79.0,
+        "ymin": -0.017,
+        "ymax": 20.017,
+        "ylen": 20.033,
+        "zmin": 0.998,
+        "zmax": 49.002,
+        "zlen": 48.003
+      },
+      "output_directory": "coupons"
+    }
+  ],
+  "checks": [
+    {
+      "check": "All exported solids valid",
+      "status": "PASS",
+      "evidence": "30/30 valid"
+    },
+    {
+      "check": "All exported parts non-zero volume",
+      "status": "PASS",
+      "evidence": "Every part/coupon reports positive volume"
+    },
+    {
+      "check": "Motion-state interference",
+      "status": "PASS",
+      "evidence": "No unintended moving/fixed overlap in 75/62.5/50 degree states"
+    },
+    {
+      "check": "608 axial alignment",
+      "status": "PASS",
+      "evidence": "Both 22x7 bearings share M8 axis X=50, Z=76; bearings seat y=28.2..35.2 and 48.8..55.8"
+    },
+    {
+      "check": "M8 journal location",
+      "status": "PASS",
+      "evidence": "M8x90 placeholder spans y=-4..86; smooth-shank length must be measured before print"
+    },
+    {
+      "check": "Spring length monotonic",
+      "status": "PASS",
+      "evidence": "{\"released\": 69.76, \"mid\": 77.97, \"full\": 85.82}"
+    },
+    {
+      "check": "Hall distance monotonic toward full pull",
+      "status": "PASS",
+      "evidence": "{\"released\": 23.99, \"mid\": 12.63, \"full\": 5.02}"
+    },
+    {
+      "check": "Mechanical stop endpoint contact",
+      "status": "PASS",
+      "evidence": "Tangent M6 pin/screw model overlap volumes: {'released': 0.0, 'full': 0.0}"
+    },
+    {
+      "check": "Clamp states 10/25/40/55 mm",
+      "status": "PASS",
+      "evidence": "{\"10\": {\"pad_top_z\": -21.0, \"desk_underside_z\": -21.0, \"full_nut_engagement\": true, \"knob_clear\": true, \"pad_desk_overlap_mm3\": 0.0, \"pass\": true}, \"25\": {\"pad_top_z\": -36.0, \"desk_underside_z\": -36.0, \"full_nut_engagement\": true, \"knob_clear\": true, \"pad_desk_overlap_mm3\": 0.0, \"pass\": true}, \"40\": {\"pad_top_z\": -51.0, \"desk_underside_z\": -51.0, \"full_nut_engagement\": true, \"knob_clear\": true, \"pad_desk_overlap_mm3\": 0.0, \"pass\": true}, \"55\": {\"pad_top_z\": -66.0, \"desk_underside_z\": -66.0, \"full_nut_engagement\": true, \"knob_clear\": true, \"pad_desk_overlap_mm3\": 0.0, \"pass\": true}}"
+    },
+    {
+      "check": "Rig slots independent",
+      "status": "PASS",
+      "evidence": "Two 44x7 slots centred X=136 at Y=32/52; clamp bolts at Y=18/66"
+    },
+    {
+      "check": "Bearing insertion/removal",
+      "status": "PASS",
+      "evidence": "Both 7.2 mm pockets open from hub side faces; supports separate after M8 removal"
+    },
+    {
+      "check": "Pivot fastener access",
+      "status": "PASS",
+      "evidence": "Bolt head and nyloc remain outside Y=8..76 tower envelope"
+    },
+    {
+      "check": "Electronics access",
+      "status": "PASS",
+      "evidence": "Four-screw top cover removes without pivot disassembly; rear USB opening and front Hall cable route"
+    },
+    {
+      "check": "Printed fit readiness",
+      "status": "REVIEW",
+      "evidence": "Bearing, M8/M6, nut, and magnet fits remain coupon-dependent"
+    },
+    {
+      "check": "PETG structural capacity",
+      "status": "REVIEW",
+      "evidence": "No pseudo-FEA or printed-material safety factor; progressive physical testing required"
+    }
+  ],
+  "spring_lengths_mm": {
+    "released": 69.76478425767219,
+    "mid": 77.9712014214104,
+    "full": 85.81830088398989
+  },
+  "hall_center_distances_mm": {
+    "released": 23.99146887288847,
+    "mid": 12.63377404938228,
+    "full": 5.020789262039225
+  },
+  "clamp_states": {
+    "10": {
+      "pad_top_z": -21.0,
+      "desk_underside_z": -21.0,
+      "full_nut_engagement": true,
+      "knob_clear": true,
+      "pad_desk_overlap_mm3": 0.0,
+      "pass": true
+    },
+    "25": {
+      "pad_top_z": -36.0,
+      "desk_underside_z": -36.0,
+      "full_nut_engagement": true,
+      "knob_clear": true,
+      "pad_desk_overlap_mm3": 0.0,
+      "pass": true
+    },
+    "40": {
+      "pad_top_z": -51.0,
+      "desk_underside_z": -51.0,
+      "full_nut_engagement": true,
+      "knob_clear": true,
+      "pad_desk_overlap_mm3": 0.0,
+      "pass": true
+    },
+    "55": {
+      "pad_top_z": -66.0,
+      "desk_underside_z": -66.0,
+      "full_nut_engagement": true,
+      "knob_clear": true,
+      "pad_desk_overlap_mm3": 0.0,
+      "pass": true
+    }
+  },
+  "released_bbox_mm": {
+    "xmin": 0.0,
+    "xmax": 180.0,
+    "ymin": -10.0,
+    "ymax": 86.0,
+    "zmin": 0.0,
+    "zmax": 370.17767175346336
+  },
+  "full_bbox_mm": {
+    "xmin": 0.0,
+    "xmax": 255.85903853898444,
+    "ymin": -10.0,
+    "ymax": 86.0,
+    "zmin": 0.0,
+    "zmax": 316.74072240036463
+  },
+  "clamped_55_bbox_mm": {
+    "xmin": 0.0,
+    "xmax": 182.0,
+    "ymin": -10.0,
+    "ymax": 86.0,
+    "zmin": -192.0,
+    "zmax": 370.17767175346336
+  },
+  "unexpected_interferences": []
+}

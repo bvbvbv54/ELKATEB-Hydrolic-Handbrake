@@ -1,0 +1,144 @@
+{
+  "version": "P1-C Commercial Alpha",
+  "checks": [
+    {
+      "check": "All exported solids valid",
+      "status": "PASS",
+      "classification": "CAD VERIFIED",
+      "evidence": "18/18 valid"
+    },
+    {
+      "check": "Bearing axial alignment",
+      "status": "PASS",
+      "classification": "CAD VERIFIED",
+      "evidence": "Both 608 rings and M8 pivot share X=58, Z=76; bearing faces Y=29..36 and 52..59"
+    },
+    {
+      "check": "Pivot stack width",
+      "status": "PASS",
+      "classification": "CAD VERIFIED",
+      "evidence": "34 mm frame gap = 30 mm hub + 2 x 2 mm axial spacers"
+    },
+    {
+      "check": "Spring length increases through pull",
+      "status": "PASS",
+      "classification": "CAD VERIFIED",
+      "evidence": "{\"released\": 77.02, \"mid\": 86.49, \"full\": 95.37}"
+    },
+    {
+      "check": "Magnet distance monotonic",
+      "status": "PASS",
+      "classification": "CAD VERIFIED",
+      "evidence": "[24.553, 18.896, 13.394, 8.483, 6.0]"
+    },
+    {
+      "check": "Ferromagnetic exclusion window",
+      "status": "PASS",
+      "classification": "CAD VERIFIED; MAGNETIC-FIELD TEST REQUIRED",
+      "evidence": "38 mm wide steel capsule follows magnet arc; nominal magnet half-diagonal 5.79 mm leaves >13 mm radial CAD margin"
+    },
+    {
+      "check": "Motion collision scan",
+      "status": "PASS",
+      "classification": "CAD VERIFIED",
+      "evidence": "No unintended moving/fixed overlap"
+    },
+    {
+      "check": "Clamp 10/25/40/55 mm states",
+      "status": "PASS",
+      "classification": "CAD VERIFIED; CLAMP LOAD TEST REQUIRED",
+      "evidence": "{\"10\": {\"pad_top\": -13.0, \"desk_underside\": -13.0, \"thread_engaged\": true, \"pass\": true}, \"25\": {\"pad_top\": -28.0, \"desk_underside\": -28.0, \"thread_engaged\": true, \"pass\": true}, \"40\": {\"pad_top\": -43.0, \"desk_underside\": -43.0, \"thread_engaged\": true, \"pass\": true}, \"55\": {\"pad_top\": -58.0, \"desk_underside\": -58.0, \"thread_engaged\": true, \"pass\": true}}"
+    },
+    {
+      "check": "Structural capacity",
+      "status": "REVIEW",
+      "classification": "PHYSICAL TEST REQUIRED",
+      "evidence": "No qualified material allowables, weld model, fatigue model, or FEA; progressive physical test required"
+    },
+    {
+      "check": "Bend compensation",
+      "status": "REVIEW",
+      "classification": "SUPPLIER QUOTE REQUIRED",
+      "evidence": "Nominal flats use 3 mm inside radius; supplier must apply tooling-specific K-factor/bend deduction"
+    }
+  ],
+  "spring_lengths_mm": {
+    "released": 77.01617928190753,
+    "mid": 86.49190518850253,
+    "full": 95.36856674371354
+  },
+  "magnetic_path": [
+    {
+      "travel_percent": 0,
+      "lever_angle_deg": 75.0,
+      "magnet_x_mm": 105.631,
+      "magnet_z_mm": 48.5,
+      "center_to_sensor_mm": 24.553,
+      "nominal_face_gap_mm": "arc-dependent",
+      "classification": "CAD DERIVED"
+    },
+    {
+      "travel_percent": 25,
+      "lever_angle_deg": 68.75,
+      "magnet_x_mm": 102.354,
+      "magnet_z_mm": 43.478,
+      "center_to_sensor_mm": 18.896,
+      "nominal_face_gap_mm": "arc-dependent",
+      "classification": "CAD DERIVED"
+    },
+    {
+      "travel_percent": 50,
+      "lever_angle_deg": 62.5,
+      "magnet_x_mm": 98.55,
+      "magnet_z_mm": 38.843,
+      "center_to_sensor_mm": 13.394,
+      "nominal_face_gap_mm": "arc-dependent",
+      "classification": "CAD DERIVED"
+    },
+    {
+      "travel_percent": 75,
+      "lever_angle_deg": 56.25,
+      "magnet_x_mm": 94.264,
+      "magnet_z_mm": 34.649,
+      "center_to_sensor_mm": 8.483,
+      "nominal_face_gap_mm": "arc-dependent",
+      "classification": "CAD DERIVED"
+    },
+    {
+      "travel_percent": 100,
+      "lever_angle_deg": 50.0,
+      "magnet_x_mm": 89.547,
+      "magnet_z_mm": 30.947,
+      "center_to_sensor_mm": 6.0,
+      "nominal_face_gap_mm": 6.0,
+      "classification": "CAD DERIVED"
+    }
+  ],
+  "unexpected_interferences": [],
+  "clamp_states": {
+    "10": {
+      "pad_top": -13.0,
+      "desk_underside": -13.0,
+      "thread_engaged": true,
+      "pass": true
+    },
+    "25": {
+      "pad_top": -28.0,
+      "desk_underside": -28.0,
+      "thread_engaged": true,
+      "pass": true
+    },
+    "40": {
+      "pad_top": -43.0,
+      "desk_underside": -43.0,
+      "thread_engaged": true,
+      "pass": true
+    },
+    "55": {
+      "pad_top": -58.0,
+      "desk_underside": -58.0,
+      "thread_engaged": true,
+      "pass": true
+    }
+  }
+}

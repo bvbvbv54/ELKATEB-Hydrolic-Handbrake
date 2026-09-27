@@ -1,0 +1,11 @@
+check,status,classification,evidence
+All exported solids valid,PASS,CAD VERIFIED,18/18 valid
+Bearing axial alignment,PASS,CAD VERIFIED,"Both 608 rings and M8 pivot share X=58, Z=76; bearing faces Y=29..36 and 52..59"
+Pivot stack width,PASS,CAD VERIFIED,34 mm frame gap = 30 mm hub + 2 x 2 mm axial spacers
+Spring length increases through pull,PASS,CAD VERIFIED,"{""released"": 77.02, ""mid"": 86.49, ""full"": 95.37}"
+Magnet distance monotonic,PASS,CAD VERIFIED,"[24.553, 18.896, 13.394, 8.483, 6.0]"
+Ferromagnetic exclusion window,PASS,CAD VERIFIED; MAGNETIC-FIELD TEST REQUIRED,38 mm wide steel capsule follows magnet arc; nominal magnet half-diagonal 5.79 mm leaves >13 mm radial CAD margin
+Motion collision scan,PASS,CAD VERIFIED,No unintended moving/fixed overlap
+Clamp 10/25/40/55 mm states,PASS,CAD VERIFIED; CLAMP LOAD TEST REQUIRED,"{""10"": {""pad_top"": -13.0, ""desk_underside"": -13.0, ""thread_engaged"": true, ""pass"": true}, ""25"": {""pad_top"": -28.0, ""desk_underside"": -28.0, ""thread_engaged"": true, ""pass"": true}, ""40"": {""pad_top"": -43.0, ""desk_underside"": -43.0, ""thread_engaged"": true, ""pass"": true}, ""55"": {""pad_top"": -58.0, ""desk_underside"": -58.0, ""thread_engaged"": true, ""pass"": true}}"
+Structural capacity,REVIEW,PHYSICAL TEST REQUIRED,"No qualified material allowables, weld model, fatigue model, or FEA; progressive physical test required"
+Bend compensation,REVIEW,SUPPLIER QUOTE REQUIRED,Nominal flats use 3 mm inside radius; supplier must apply tooling-specific K-factor/bend deduction

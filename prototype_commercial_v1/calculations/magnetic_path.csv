@@ -1,0 +1,6 @@
+travel_percent,lever_angle_deg,magnet_x_mm,magnet_z_mm,center_to_sensor_mm,nominal_face_gap_mm,classification
+0,75.0,105.631,48.5,24.553,arc-dependent,CAD DERIVED
+25,68.75,102.354,43.478,18.896,arc-dependent,CAD DERIVED
+50,62.5,98.55,38.843,13.394,arc-dependent,CAD DERIVED
+75,56.25,94.264,34.649,8.483,arc-dependent,CAD DERIVED
+100,50.0,89.547,30.947,6.0,6.0,CAD DERIVED

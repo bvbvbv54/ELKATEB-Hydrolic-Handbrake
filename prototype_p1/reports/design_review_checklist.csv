@@ -1,0 +1,16 @@
+check,status,evidence
+All exported solids valid,PASS,30/30 valid
+All exported parts non-zero volume,PASS,Every part/coupon reports positive volume
+Motion-state interference,PASS,No unintended moving/fixed overlap in 75/62.5/50 degree states
+608 axial alignment,PASS,"Both 22x7 bearings share M8 axis X=50, Z=76; bearings seat y=28.2..35.2 and 48.8..55.8"
+M8 journal location,PASS,M8x90 placeholder spans y=-4..86; smooth-shank length must be measured before print
+Spring length monotonic,PASS,"{""released"": 69.76, ""mid"": 77.97, ""full"": 85.82}"
+Hall distance monotonic toward full pull,PASS,"{""released"": 23.99, ""mid"": 12.63, ""full"": 5.02}"
+Mechanical stop endpoint contact,PASS,"Tangent M6 pin/screw model overlap volumes: {'released': 0.0, 'full': 0.0}"
+Clamp states 10/25/40/55 mm,PASS,"{""10"": {""pad_top_z"": -21.0, ""desk_underside_z"": -21.0, ""full_nut_engagement"": true, ""knob_clear"": true, ""pad_desk_overlap_mm3"": 0.0, ""pass"": true}, ""25"": {""pad_top_z"": -36.0, ""desk_underside_z"": -36.0, ""full_nut_engagement"": true, ""knob_clear"": true, ""pad_desk_overlap_mm3"": 0.0, ""pass"": true}, ""40"": {""pad_top_z"": -51.0, ""desk_underside_z"": -51.0, ""full_nut_engagement"": true, ""knob_clear"": true, ""pad_desk_overlap_mm3"": 0.0, ""pass"": true}, ""55"": {""pad_top_z"": -66.0, ""desk_underside_z"": -66.0, ""full_nut_engagement"": true, ""knob_clear"": true, ""pad_desk_overlap_mm3"": 0.0, ""pass"": true}}"
+Rig slots independent,PASS,Two 44x7 slots centred X=136 at Y=32/52; clamp bolts at Y=18/66
+Bearing insertion/removal,PASS,Both 7.2 mm pockets open from hub side faces; supports separate after M8 removal
+Pivot fastener access,PASS,Bolt head and nyloc remain outside Y=8..76 tower envelope
+Electronics access,PASS,Four-screw top cover removes without pivot disassembly; rear USB opening and front Hall cable route
+Printed fit readiness,REVIEW,"Bearing, M8/M6, nut, and magnet fits remain coupon-dependent"
+PETG structural capacity,REVIEW,No pseudo-FEA or printed-material safety factor; progressive physical testing required

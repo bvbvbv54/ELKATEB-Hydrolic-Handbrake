@@ -1,0 +1,24 @@
+Bro, here are the STL files for the sim-racing handbrake prototype I told you about.
+
+There are 27 STLs total: 8 calibration pieces and 19 final prototype pieces. Please DON'T print everything yet.
+
+First, can you import all four folders into the slicer you normally use and tell me:
+
+- your printer model and X x Y x Z build volume
+- slicer name/version
+- nozzle size
+- what filament/material and brand you currently have
+- approximately how many grams are left
+- the slicer's estimated grams for the 8 calibration parts, 19 final parts, and all 27 files
+- whether every part fits your usable build plate
+- whether any part needs a lot of support, a brim, or a different orientation
+
+Our engineering estimate is about 918 g total at the current 50% planning case, but I want your slicer result because it will be much more accurate with your real printer, profile, supports, and filament.
+
+The starting design settings were PETG, 0.4 mm nozzle, 0.20 mm layers, 5–6 walls, 6 top layers, 6 bottom layers, and 50% infill. These are not compulsory, so please tell me if you recommend changing them.
+
+PETG was selected as a starting point because the prototype has loaded pivot towers, bearing pockets, spring and clamp parts, and PETG is usually a practical balance of toughness, layer adhesion, availability, cost, and less brittle handling than ordinary PLA. It is not guaranteed to be the best material and it still needs physical testing. If you have PLA, ABS, ASA, nylon, or another engineering filament instead, tell me exactly what it is and we can decide how to use it. PLA is fine for the first calibration and fit checks.
+
+The first actual print job is only the 8 files inside `01_CALIBRATION_FIRST`. After I measure those coupons, I may adjust the fit parameters and send updated structural STLs.
+
+Thanks bro — check the README and manifest for the orientation and size of each part.

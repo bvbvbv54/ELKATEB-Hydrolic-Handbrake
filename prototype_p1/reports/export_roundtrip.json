@@ -1,0 +1,829 @@
+{
+  "records": [
+    {
+      "path": "step\\P1-001_BASE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 180.0,
+      "ylen": 84.0,
+      "zlen": 10.0
+    },
+    {
+      "path": "step\\P1-002_LEFT_PIVOT_SUPPORT.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 56.0,
+      "ylen": 18.0,
+      "zlen": 93.0000000000008
+    },
+    {
+      "path": "step\\P1-003_RIGHT_PIVOT_SUPPORT.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 56.0,
+      "ylen": 18.000000199999995,
+      "zlen": 93.0000001
+    },
+    {
+      "path": "step\\P1-004_LEVER_ROOT_BEARING_HUB.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 124.0,
+      "ylen": 28.0,
+      "zlen": 64.0
+    },
+    {
+      "path": "step\\P1-005_STEEL_LEVER_TEMPLATE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 280.0,
+      "ylen": 5.0,
+      "zlen": 25.0
+    },
+    {
+      "path": "step\\P1-006_GRIP.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 110.00000020000002,
+      "ylen": 34.000000201791664,
+      "zlen": 34.0000002
+    },
+    {
+      "path": "step\\P1-007_SPRING_ANCHOR_MODULE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 40.0,
+      "ylen": 24.0,
+      "zlen": 22.0
+    },
+    {
+      "path": "step\\P1-008_RELEASE_STOP.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 18.699342470106586,
+      "ylen": 8.000000199999999,
+      "zlen": 22.94198315722285
+    },
+    {
+      "path": "step\\P1-009_FULL_PULL_STOP.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 23.580374397401293,
+      "ylen": 8.000000199999999,
+      "zlen": 24.319915397995118
+    },
+    {
+      "path": "step\\P1-010_MAGNET_HOLDER.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 22.405933800230002,
+      "ylen": 12.0,
+      "zlen": 43.033350798200004
+    },
+    {
+      "path": "step\\P1-011A_HALL_FIXED_BRACKET.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 31.0,
+      "ylen": 15.0,
+      "zlen": 35.0
+    },
+    {
+      "path": "step\\P1-011B_HALL_SENSOR_SLED.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 14.0,
+      "ylen": 8.599999999999994,
+      "zlen": 22.0
+    },
+    {
+      "path": "step\\P1-012_ELECTRONICS_ENCLOSURE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 50.0,
+      "ylen": 38.0,
+      "zlen": 28.0
+    },
+    {
+      "path": "step\\P1-013_ELECTRONICS_COVER.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 50.0,
+      "ylen": 38.0,
+      "zlen": 5.0
+    },
+    {
+      "path": "step\\P1-020_CLAMP_BASE_INTERFACE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 64.0000001,
+      "ylen": 72.0,
+      "zlen": 8.000000199999999
+    },
+    {
+      "path": "step\\P1-021_CLAMP_VERTICAL_BRACKET.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 34.00000000000489,
+      "ylen": 64.0,
+      "zlen": 114.0
+    },
+    {
+      "path": "step\\P1-022_CLAMP_SCREW_GUIDE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 76.0,
+      "ylen": 32.0,
+      "zlen": 38.0
+    },
+    {
+      "path": "step\\P1-023_CLAMP_KNOB.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 52.0,
+      "ylen": 47.176914536240005,
+      "zlen": 18.0
+    },
+    {
+      "path": "step\\P1-024_SWIVEL_PAD_HOLDER.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 46.0,
+      "ylen": 46.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "step\\P1-025_UPPER_RUBBER_PAD_HOLDER.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 90.0,
+      "ylen": 62.0,
+      "zlen": 3.0
+    },
+    {
+      "path": "step\\P1-030_LEFT_BACKING_STRIP.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 180.0,
+      "ylen": 25.0,
+      "zlen": 3.0
+    },
+    {
+      "path": "step\\P1-031_RIGHT_BACKING_STRIP.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 180.0,
+      "ylen": 25.0,
+      "zlen": 3.0
+    },
+    {
+      "path": "step\\P1_ASSEMBLY.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 31,
+      "xlen": 180.0,
+      "ylen": 96.0,
+      "zlen": 370.1776717534708
+    },
+    {
+      "path": "step\\P1_CLAMP_10MM_DESK.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 40,
+      "xlen": 182.0,
+      "ylen": 96.0,
+      "zlen": 517.1776717534708
+    },
+    {
+      "path": "step\\P1_CLAMP_25MM_DESK.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 40,
+      "xlen": 182.0,
+      "ylen": 96.0,
+      "zlen": 532.1776717534708
+    },
+    {
+      "path": "step\\P1_CLAMP_40MM_DESK.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 40,
+      "xlen": 182.0,
+      "ylen": 96.0,
+      "zlen": 547.1776717534708
+    },
+    {
+      "path": "step\\P1_CLAMP_55MM_DESK.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 40,
+      "xlen": 182.0,
+      "ylen": 96.0,
+      "zlen": 562.1776717534708
+    },
+    {
+      "path": "step\\P1_EXPLODED.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 31,
+      "xlen": 198.0,
+      "ylen": 137.0000001,
+      "zlen": 382.1776717534708
+    },
+    {
+      "path": "step\\P1_FULL_PULL.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 31,
+      "xlen": 255.85903853897892,
+      "ylen": 96.0,
+      "zlen": 316.74072240036566
+    },
+    {
+      "path": "step\\P1_MID_TRAVEL.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 31,
+      "xlen": 203.60376823453922,
+      "ylen": 96.0,
+      "zlen": 349.95297647845774
+    },
+    {
+      "path": "step\\P1_PIPELINE_SMOKE_TEST.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 32,
+      "xlen": 180.0,
+      "ylen": 96.0,
+      "zlen": 370.1776717534708
+    },
+    {
+      "path": "step\\P1_RELEASED.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 31,
+      "xlen": 180.0,
+      "ylen": 96.0,
+      "zlen": 370.1776717534708
+    },
+    {
+      "path": "step\\P1_RIG_CONFIGURATION.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 31,
+      "xlen": 180.0,
+      "ylen": 96.0,
+      "zlen": 370.1776717534708
+    },
+    {
+      "path": "coupons\\COUPON_608_POCKETS_DEPTH_14.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 150.0,
+      "ylen": 34.0,
+      "zlen": 18.0
+    },
+    {
+      "path": "coupons\\COUPON_608_POCKETS_DEPTH_7.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 150.0,
+      "ylen": 34.0,
+      "zlen": 11.0
+    },
+    {
+      "path": "coupons\\COUPON_HALL_GAP_JIG.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 104.0,
+      "ylen": 35.0,
+      "zlen": 18.0
+    },
+    {
+      "path": "coupons\\COUPON_LOADED_BEARING_WALL.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 79.0,
+      "ylen": 20.0,
+      "zlen": 48.0
+    },
+    {
+      "path": "coupons\\COUPON_M6_CLEARANCE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 72.0,
+      "ylen": 24.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "coupons\\COUPON_M6_NUT_TRAPS.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 80.0,
+      "ylen": 26.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "coupons\\COUPON_M8_CLEARANCE.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 72.0,
+      "ylen": 24.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "coupons\\COUPON_MAGNET_POCKETS.step",
+      "format": "STEP",
+      "valid": true,
+      "solids": 1,
+      "xlen": 70.0,
+      "ylen": 22.0,
+      "zlen": 7.0
+    },
+    {
+      "path": "stl\\P1-001_BASE.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 5888,
+      "xlen": 180.0,
+      "ylen": 84.0,
+      "zlen": 10.0
+    },
+    {
+      "path": "stl\\P1-002_LEFT_PIVOT_SUPPORT.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 3196,
+      "xlen": 56.0,
+      "ylen": 18.0,
+      "zlen": 92.99861907958984
+    },
+    {
+      "path": "stl\\P1-003_RIGHT_PIVOT_SUPPORT.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2420,
+      "xlen": 56.0,
+      "ylen": 18.0,
+      "zlen": 92.98104858398438
+    },
+    {
+      "path": "stl\\P1-004_LEVER_ROOT_BEARING_HUB.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 3394,
+      "xlen": 124.0,
+      "ylen": 28.0,
+      "zlen": 63.99648475646973
+    },
+    {
+      "path": "stl\\P1-006_GRIP.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1140,
+      "xlen": 110.0,
+      "ylen": 34.0,
+      "zlen": 34.0
+    },
+    {
+      "path": "stl\\P1-007_SPRING_ANCHOR_MODULE.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1360,
+      "xlen": 40.0,
+      "ylen": 24.0,
+      "zlen": 22.0
+    },
+    {
+      "path": "stl\\P1-008_RELEASE_STOP.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2056,
+      "xlen": 18.699344635009766,
+      "ylen": 8.0,
+      "zlen": 22.941978454589844
+    },
+    {
+      "path": "stl\\P1-009_FULL_PULL_STOP.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2056,
+      "xlen": 23.580371856689453,
+      "ylen": 8.0,
+      "zlen": 24.319915771484375
+    },
+    {
+      "path": "stl\\P1-010_MAGNET_HOLDER.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1168,
+      "xlen": 22.405934616923332,
+      "ylen": 12.0,
+      "zlen": 43.03334999084473
+    },
+    {
+      "path": "stl\\P1-011A_HALL_FIXED_BRACKET.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1774,
+      "xlen": 31.0,
+      "ylen": 15.0,
+      "zlen": 35.0
+    },
+    {
+      "path": "stl\\P1-011B_HALL_SENSOR_SLED.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1740,
+      "xlen": 14.0,
+      "ylen": 8.599998474121094,
+      "zlen": 22.0
+    },
+    {
+      "path": "stl\\P1-012_ELECTRONICS_ENCLOSURE.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2292,
+      "xlen": 50.0,
+      "ylen": 38.0,
+      "zlen": 28.0
+    },
+    {
+      "path": "stl\\P1-013_ELECTRONICS_COVER.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1396,
+      "xlen": 50.0,
+      "ylen": 38.0,
+      "zlen": 5.0
+    },
+    {
+      "path": "stl\\P1-020_CLAMP_BASE_INTERFACE.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2848,
+      "xlen": 64.0,
+      "ylen": 72.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "stl\\P1-021_CLAMP_VERTICAL_BRACKET.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 716,
+      "xlen": 34.0,
+      "ylen": 64.0,
+      "zlen": 114.0
+    },
+    {
+      "path": "stl\\P1-022_CLAMP_SCREW_GUIDE.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1720,
+      "xlen": 76.0,
+      "ylen": 32.0,
+      "zlen": 38.0
+    },
+    {
+      "path": "stl\\P1-023_CLAMP_KNOB.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1680,
+      "xlen": 52.0,
+      "ylen": 47.176605224609375,
+      "zlen": 18.0
+    },
+    {
+      "path": "stl\\P1-024_SWIVEL_PAD_HOLDER.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1008,
+      "xlen": 46.0,
+      "ylen": 46.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "stl\\P1-025_UPPER_RUBBER_PAD_HOLDER.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2700,
+      "xlen": 90.0,
+      "ylen": 62.0,
+      "zlen": 3.0
+    },
+    {
+      "path": "coupons\\COUPON_608_POCKETS_DEPTH_14.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2028,
+      "xlen": 150.0,
+      "ylen": 34.0,
+      "zlen": 18.0
+    },
+    {
+      "path": "coupons\\COUPON_608_POCKETS_DEPTH_7.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 2028,
+      "xlen": 150.0,
+      "ylen": 34.0,
+      "zlen": 11.0
+    },
+    {
+      "path": "coupons\\COUPON_HALL_GAP_JIG.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 400,
+      "xlen": 104.0,
+      "ylen": 35.0,
+      "zlen": 18.0
+    },
+    {
+      "path": "coupons\\COUPON_LOADED_BEARING_WALL.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1324,
+      "xlen": 78.98325562477112,
+      "ylen": 20.0,
+      "zlen": 47.96968173980713
+    },
+    {
+      "path": "coupons\\COUPON_M6_CLEARANCE.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1372,
+      "xlen": 72.0,
+      "ylen": 24.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "coupons\\COUPON_M6_NUT_TRAPS.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 108,
+      "xlen": 80.0,
+      "ylen": 26.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "coupons\\COUPON_M8_CLEARANCE.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 1372,
+      "xlen": 72.0,
+      "ylen": 24.0,
+      "zlen": 8.0
+    },
+    {
+      "path": "coupons\\COUPON_MAGNET_POCKETS.stl",
+      "format": "STL",
+      "valid": true,
+      "mesh_components": 1,
+      "watertight_all": true,
+      "faces": 76,
+      "xlen": 70.0,
+      "ylen": 22.0,
+      "zlen": 7.0
+    },
+    {
+      "path": "dxf\\P1-005_STEEL_LEVER_TEMPLATE.dxf",
+      "format": "DXF",
+      "valid": true,
+      "units_code": 4,
+      "entities": 5
+    },
+    {
+      "path": "dxf\\P1-030_LEFT_BACKING_STRIP.dxf",
+      "format": "DXF",
+      "valid": true,
+      "units_code": 4,
+      "entities": 6
+    },
+    {
+      "path": "dxf\\P1-031_RIGHT_BACKING_STRIP.dxf",
+      "format": "DXF",
+      "valid": true,
+      "units_code": 4,
+      "entities": 6
+    },
+    {
+      "path": "renders\\01_ISOMETRIC_ASSEMBLY.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\02_LEFT_SIDE.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\03_RIGHT_SIDE.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\04_FRONT.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\05_REAR.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\06_TOP.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\07_BOTTOM.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\08_PIVOT_SECTION.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\09_EXPLODED_VIEW.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\10_DESK_CLAMP_INSTALLED.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\11_CLAMP_REMOVED.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\12_RIG_MOUNT_BOTTOM.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\13_RELEASED.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\14_MID_TRAVEL.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\15_FULL_PULL.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\16_CLAMP_10MM_DESK.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\17_CLAMP_25MM_DESK.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\18_CLAMP_40MM_DESK.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    },
+    {
+      "path": "renders\\19_CLAMP_55MM_DESK.png",
+      "format": "PNG",
+      "valid": true,
+      "width": 1152,
+      "height": 1185
+    }
+  ],
+  "summary": {
+    "files": 90,
+    "failed": 0
+  },
+  "failed": []
+}

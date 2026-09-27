@@ -1,0 +1,73 @@
+parameter,value,confidence,note
+base_length,190.0,ASSUMED_P1C,Commercial alpha tray length.
+base_width,88.0,ASSUMED_P1C,Commercial alpha tray width.
+base_sheet,3.0,MANUFACTURING_ASSUMPTION,Laser-cut mild steel; RFQ 2.5 and 3.0 mm.
+base_flange_height,15.0,ASSUMED_P1C,Upturned edge flange.
+bend_inside_radius,3.0,MANUFACTURING_ASSUMPTION,Final radius per supplier tooling.
+pivot_x,58.0,ASSUMED_P1C,Retains short front overhang and rear equipment zone.
+pivot_y,44.0,DERIVED,Base centre plane.
+pivot_z,76.0,ASSUMED_P1C,Low side-frame silhouette with adequate mechanism clearance.
+side_sheet,3.0,MANUFACTURING_ASSUMPTION,S235/ST37/DC01 equivalent mild steel.
+side_inner_gap,34.0,ASSUMED_P1C,30 mm hub plus two 2 mm axial spacers.
+side_left_y,24.0,DERIVED,Left plate outside face.
+side_right_y,61.0,DERIVED,Right plate inside face; 34 mm inner gap.
+side_foot_width,17.0,ASSUMED_P1C,One-bend outward foot per side frame.
+accent_sheet,2.0,MANUFACTURING_ASSUMPTION,Non-structural 5xxx/6xxx aluminium accent.
+pivot_nominal,8.0,P1_BASELINE_VERIFIED,M8 steel pivot architecture.
+pivot_clearance,8.5,CALIBRATION_DEPENDENT,Laser/printed fit to verify.
+pivot_bolt_length,80.0,MEASURE_BEFORE_BUILD,Partial-thread M8 candidate; smooth shank across races.
+bearing_id,8.0,COMMODITY_NOMINAL,608 bearing.
+bearing_od,22.0,COMMODITY_NOMINAL,608 bearing.
+bearing_width,7.0,COMMODITY_NOMINAL,608 bearing.
+bearing_pocket,22.2,CALIBRATION_DEPENDENT,Inherited P1 coupon starting value.
+hub_width,30.0,ASSUMED_P1C,Hidden reinforced printed carrier.
+hub_radius,25.0,ASSUMED_P1C,Adequate wall around 22.2 mm bearing pocket.
+hub_pocket_depth,7.2,CALIBRATION_DEPENDENT,Bearing face allowance.
+hub_inner_spacer,15.6,DERIVED,30 - 2 x 7.2 mm.
+hub_outer_spacer,2.0,DERIVED,(34 - 30) / 2.
+lever_sheet,5.0,MANUFACTURING_ASSUMPTION,Laser-cut mild steel plate.
+lever_length,300.0,ASSUMED_P1C,Pivot to upper end.
+hand_radius,245.0,DERIVED,Approximate hand centre from pivot.
+released_angle,75.0,P1_BASELINE_VERIFIED,Released state.
+mid_angle,62.5,DERIVED,Midpoint.
+full_angle,50.0,P1_BASELINE_VERIFIED,Full-pull state.
+grip_length,112.0,ASSUMED_P1C,Commodity rubber grip target.
+grip_od,34.0,ASSUMED_P1C,Premium-feeling effective diameter.
+grip_core_od,22.0,MEASURE_BEFORE_BUILD,Steel/aluminium tube under rubber grip.
+grip_start_radius,188.0,DERIVED,112 mm grip ends at 300 mm.
+moving_anchor_radius,45.0,ASSUMED_P1C,Steel M6 moving anchor through hub lug.
+fixed_anchor_x,123.0,ASSUMED_P1C,Rear spring bracket centre.
+fixed_anchor_z,25.0,ASSUMED_P1C,Three-position steel anchor.
+spring_od,18.0,MEASURE_BEFORE_BUILD,Commodity extension spring maximum envelope.
+spring_free_length,75.0,MEASURE_BEFORE_BUILD,Select after force testing.
+stop_pin_radius,21.0,ASSUMED_P1C,M6 hub stop pin radius.
+stop_nominal,6.0,COMMODITY_NOMINAL,Replaceable M6 stop hardware.
+travel_deg,25.0,DERIVED,75 - 50 degrees.
+magnet_size,"(10.0, 5.0, 3.0)",MEASURE_BEFORE_BUILD,Block magnet starting point.
+magnet_radius,55.0,P1_BASELINE_VERIFIED,P1 proven monotonic approach principle.
+magnet_local_angle,-105.0,P1_BASELINE_VERIFIED,Relative to lever axis.
+hall_gap,6.0,ASSUMED_P1C,Initial face gap.
+hall_gap_range,"(3.0, 15.0)",P1_BASELINE_VERIFIED,Prototype adjustment range.
+hall_pcb,"(20.0, 10.0, 1.6)",MEASURE_BEFORE_BUILD,49E breakout envelope.
+magnetic_window_width,38.0,ASSUMED_P1C,Steel exclusion zone around magnet path.
+electronics_outer,"(54.0, 64.0, 30.0)",ASSUMED_P1C,Integrated replaceable rear pod.
+electronics_wall,2.4,PRINT_ASSUMPTION,Six 0.4 mm perimeters.
+electronics_origin,"(134.0, 12.0, 4.0)",DERIVED,Behind spring and pivot.
+pro_micro_envelope,"(40.0, 20.0, 12.0)",MEASURE_BEFORE_BUILD,Temporary controller.
+rig_slot_length,44.0,ASSUMED_P1C,Longitudinal M6 adjustment.
+rig_slot_width,7.0,MANUFACTURING_ASSUMPTION,Laser-cut M6 clearance slot.
+m6_clearance,6.6,MANUFACTURING_ASSUMPTION,General M6 through clearance.
+m4_clearance,4.5,MANUFACTURING_ASSUMPTION,General M4 clearance.
+m3_clearance,3.4,MANUFACTURING_ASSUMPTION,General M3 clearance.
+clamp_sheet,3.0,MANUFACTURING_ASSUMPTION,Laser-cut/bent mild steel.
+clamp_throat,65.0,ASSUMED_P1C,Desk edge to M10 screw axis.
+clamp_desk_range,"(10.0, 55.0)",P1_BASELINE_VERIFIED,Required desk range.
+clamp_screw,10.0,COMMODITY_NOMINAL,M10 steel screw; no printed primary thread.
+clamp_screw_length,120.0,MEASURE_BEFORE_BUILD,Covers required states with 30 mm coupling nut.
+clamp_pad_od,46.0,ASSUMED_P1C,Swivel pad/rubber contact.
+clamp_knob_od,50.0,ASSUMED_P1C,Printed hand knob around steel hardware.
+clamp_screw_x,125.0,DERIVED,190 - 65 mm throat.
+clamp_nut_z,-103.0,DERIVED,Coupling nut begins above lower arm.
+steel_density_g_cm3,7.85,ENGINEERING_REFERENCE,Nominal mild steel density.
+al_density_g_cm3,2.7,ENGINEERING_REFERENCE,Nominal aluminium density.
+petg_density_g_cm3,1.27,ENGINEERING_REFERENCE,"Solid volume only, not slicer mass."

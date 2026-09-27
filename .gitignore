@@ -1,0 +1,25 @@
+
+# Local Codex handoff notes
+codex/
+
+# Downloaded third-party reference packages - licensing not established
+*.snapshot.*/
+
+# Local dependency runtimes and caches
+analysis_generated/python_packages/
+prototype_p1/.tools/
+**/__pycache__/
+*.pyc
+
+# Reference-derived previews and temporary extraction material
+analysis_generated/tmp/
+analysis_generated/previews/
+analysis_generated/extracted_metadata/
+prototype_commercial_v1/reports/render_development/
+tmp/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

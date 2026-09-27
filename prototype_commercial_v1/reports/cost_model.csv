@@ -1,0 +1,21 @@
+item_id,category,description,cost_status,currency,basis,unit_cost_tnd_qty_1,unit_cost_tnd_qty_5,unit_cost_tnd_qty_10,unit_cost_tnd_qty_25,unit_cost_tnd_qty_50
+C01,steel sheet,S235/ST37/DC01 sheet share,UNKNOWN_RFQ,TND,planning allowance; replace with supplier quote,9.9,7.5,6.6,6.0,5.52
+C02,aluminium sheet,2 mm accent share,UNKNOWN_RFQ,TND,planning allowance; replace with supplier quote,3.3,2.5,2.2,2.0,1.84
+C03,laser cutting,8 sheet parts,UNKNOWN_RFQ,TND,planning allowance; replace with supplier quote,13.2,10.0,8.8,8.0,7.36
+C04,bending,"base, frames, spring bracket, clamp",UNKNOWN_RFQ,TND,planning allowance; replace with supplier quote,9.9,7.5,6.6,6.0,5.52
+C05,deburring,all visible edges,UNKNOWN_RFQ,TND,planning allowance; replace with supplier quote,3.3,2.5,2.2,2.0,1.84
+C06,powder coating,black steel set,UNKNOWN_RFQ,TND,planning allowance; replace with supplier quote,11.55,8.75,7.7,7.0,6.44
+C07,aluminium finishing,directional brush/clear,UNKNOWN_RFQ,TND,planning allowance; replace with supplier quote,3.3,2.5,2.2,2.0,1.84
+C08,bearings,2 x 608,ESTIMATED,TND,planning allowance; replace with supplier quote,6.6,5.0,4.4,4.0,3.68
+C09,pivot,"M8 partial-thread bolt, spacers, nyloc",ESTIMATED,TND,planning allowance; replace with supplier quote,4.12,3.12,2.75,2.5,2.3
+C10,spring,extension spring,ESTIMATED,TND,planning allowance; replace with supplier quote,4.95,3.75,3.3,3.0,2.76
+C11,grip,commodity rubber grip plus tube,ESTIMATED,TND,planning allowance; replace with supplier quote,13.2,10.0,8.8,8.0,7.36
+C12,fasteners,standardized M3/M4/M6,ESTIMATED,TND,planning allowance; replace with supplier quote,13.2,10.0,8.8,8.0,7.36
+C13,magnet,10x5x3 block,ESTIMATED,TND,planning allowance; replace with supplier quote,1.32,1.0,0.88,0.8,0.74
+C14,Hall sensor,49E breakout,ESTIMATED,TND,planning allowance; replace with supplier quote,2.47,1.88,1.65,1.5,1.38
+C15,electronics,Pro Micro alpha allowance,ESTIMATED,TND,planning allowance; replace with supplier quote,24.75,18.75,16.5,15.0,13.8
+C16,USB,cable/port allowance,ESTIMATED,TND,planning allowance; replace with supplier quote,3.3,2.5,2.2,2.0,1.84
+C17,clamp hardware,"M10 screw, coupling nut, pad",ESTIMATED,TND,planning allowance; replace with supplier quote,9.9,7.5,6.6,6.0,5.52
+C18,printed components,PETG/ASA internal set,ESTIMATED,TND,planning allowance; replace with supplier quote,6.6,5.0,4.4,4.0,3.68
+C19,assembly,planning allowance,ESTIMATED,TND,planning allowance; replace with supplier quote,13.2,10.0,8.8,8.0,7.36
+C20,packaging,planning allowance,ESTIMATED,TND,planning allowance; replace with supplier quote,8.25,6.25,5.5,5.0,4.6
