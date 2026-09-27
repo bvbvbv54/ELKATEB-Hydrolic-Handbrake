@@ -123,6 +123,9 @@ def build():
         ["Mechanical hardware only", "Approximately 95-170 TND", "Engineering allowance; local per-piece quotes needed"],
         ["Electronics and sensor", "Approximately 45-60 TND", "Most items have current local listing evidence"],
         ["Complete purchased hardware", "Approximately 150-230 TND", "Excludes PETG, delivery, tools and failed prints"],
+        ["PETG consumed by final 19 parts", "About 59 TND at 685 g / 86 TND per kg", "Engineering mass estimate; actual slicer result controls [S21]"],
+        ["Recommended PETG stock", "2 x 1 kg = about 172 TND", "Includes coupons, development and reprint reserve [S21]"],
+        ["Startup cash with two PETG spools", "Approximately 322-402 TND", "Hardware plus development filament; excludes delivery/tools"],
         ["Consumed value per successful unit", "Likely below cash purchase", "Packs, spare bearings and spring trials leave reusable stock"],
     ]
     story += [styled_table(budget, [52 * mm, 58 * mm, 72 * mm], font=8.1), Spacer(1, 4 * mm)]
@@ -224,7 +227,7 @@ def build():
         ["CoThings", "Pro Micro and electronics", "Route X, near Stade Bardo, Bardo, Tunis. 29 750 003 / 27 772 264.", "Pro Micro price/stock listed [S3/S13]"],
         ["Little Son", "Pro Micro alternative, USB cable, M3 hardware", "1 Rue de Piree, Tunis 1001. 58 114 788.", "Pro Micro listed 35 TND; cable 7.5 TND [S7/S14]"],
         ["Tuni Smart Innovation", "SS49E, magnets, heat-shrink", "1 Rue Pierre Mendes France, Ariana 2080. 51 954 443 / 51 954 448.", "SS49E in stock; many magnets currently out of stock [S15]"],
-        ["Celectronix", "20 x 10 x 2 mm rectangular magnet, electronics, PETG", "Centre Said, Avenue Habib Bourguiba, Megrine. 79 295 570 / 27 582 469 / 28 581 332.", "20 x 10 x 2 magnet listed in stock at 1.499 TND [S19]"],
+        ["Celectronix", "20 x 10 x 2 mm rectangular magnet, electronics, PETG", "Centre Said, Avenue Habib Bourguiba, Megrine. 79 295 570 / 27 582 469 / 28 581 332.", "Magnet 1.499 TND; LUME PETG 1 kg 86 TND, listings in stock [S19/S21]"],
         ["SELI", "12 x 4 mm circular magnet and magnet alternatives", "08 Rue Chedhly Kallela, 1st floor, Boumhel 2097. 29 002 608 / 92 168 725 / 55 560 037.", "12 x 4 magnet listed in stock at 1.800 TND [S20]"],
         ["Didactico", "Hall, JST, heat-shrink, wire", "Cite des Martyrs, Rue Mohamed Salah, Imm. Bouzguenda A01, Sfax. 54 776 776 / 99 707 685.", "Listings/prices confirmed; delivery in Tunisia [S4/S6/S8/S16]"],
         ["MTR Ressorts", "Extension-spring prototype or small batch", "ZI El Ons, Route de Tunis Km 10, Sakiet Ezzit 3021 Sfax. 98 333 883 / 98 331 896.", "Local manufacturer; quotation required [S17]"],
@@ -281,6 +284,7 @@ def build():
         ("S18", "ITI Tunisie", "https://iti.com.tn/presentation/"),
         ("S19", "Celectronix - 20 x 10 x 2 mm rectangular neodymium magnet, 1.499 TND, listed in stock", "https://www.celectronix.com/autres-mecanique/7498-aimant-cylindrique-de-n-odyme-16-mm-de-diam-tre-x-1-8-mm-d-paisseur-copie-.html"),
         ("S20", "SELI - 12 x 4 mm circular neodymium magnet, 1.800 TND, listed in stock", "https://seli.tn/product-category/aimant-et-electro-aimant/"),
+        ("S21", "Celectronix - LUME PETG 1.75 mm, 1 kg, 86.000 TND, multiple colors listed in stock", "https://www.celectronix.com/filament-petg/8156--074-0-barre-led-tv-lg-43uk6565-7led-3v-44-5cm.html"),
     ]
     for sid, label, url in sources:
         story.append(P(f"<b>{sid}</b> - <link href='{url}' color='#2878B5'>{label}</link><br/><font size='7'>{url}</font>", small))
